@@ -58,7 +58,7 @@ https://github.com/DeltaX-AI-Lab/icms-face-landmark
 
 | Version | Date       | Name                | Dataset | Train By | Note                | Path                                   |
 | ------- | ---------- | ------------------- | ------- | -------- | ------------------- | -------------------------------------- |
-| v1.0.0  | 2026.04.14 | face-detection_v1.0 |    -    | binh     | Train with new data | facial_20260227_v2/model/20251120.onnx |
+| v1.0.0  | 2026.04.14 | face-detection_v1.0 |    /hdd/binh/facial_landmark/data_binh/train_1120_crop_256_v2.txt    | binh     | Train with new data | facial_20260227_v2/model/20251120.onnx |
 
 ---
 
