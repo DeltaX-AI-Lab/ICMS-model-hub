@@ -34,7 +34,7 @@ https://github.com/DeltaX-AI-Lab/icms-yolox
 
 | Version | Date       | Name                  | Dataset | Train By | Note            | Origin                |
 | ------- | ---------- | --------------------- | ------- | -------- | --------------- | --------------------- |
-| v1.0.0  | 2026.04.22 | object-detection_v1.0 |         | sami     | add child class | detection_20260630_v6 |
+| v1.0.0  | 2026.04.22 | object-detection_v1.0 |    /Hippo/hdd/sami/detection/datasets/icms_datasets/oms_dataset_20260630_v3     | sami     | add child class | detection_20260630_v6 |
 
 ---
 
