@@ -148,7 +148,7 @@ https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
 | Version | Date       | Name      | Dataset | Train By | Note                                   | Path                                              |
 | ------- | ---------- | --------- | ------- | -------- | -------------------------------------- | ------------------------------------------------- |
-| v1.0.0  | 2026.05.14 | gaze_v1.0 |         | maksym   | accuracy improved + input size changed | gaze_20260514_v4_qat_v1/model/best_model_qat.onnx |
+| v1.0.0  | 2026.05.14 | gaze_v1.0 |   /hdd/GT_LAB/Gaze-Pipelines/datasets/DeltaX/main/normalized/backup/2026-03-24_192x192      | maksym   | accuracy improved + input size changed | gaze_20260514_v4_qat_v1/model/best_model_qat.onnx |
 
 ---
 
