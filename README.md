@@ -28,10 +28,7 @@ Main features:
 * Hands-on Detection (HOD)
 
 #### Repository
-
-* Model Development
-
-  * https://github.com/DeltaX-AI-Lab/icms-yolox
+https://github.com/DeltaX-AI-Lab/icms-yolox
 
 #### Version
 
@@ -55,10 +52,7 @@ Main features:
 * Facial Analysis
 
 #### Repository
-
-* Model Development
-
-  * https://github.com/DeltaX-AI-Lab/icms-face-landmark
+https://github.com/DeltaX-AI-Lab/icms-face-landmark
 
 #### Version
 
@@ -80,10 +74,7 @@ Main features:
 * Driver Behavior
 
 #### Repository
-
-##### 3D Body Keypoint
-
-* https://github.com/DeltaX-AI-Lab/icms-3d-body-metrabs
+https://github.com/DeltaX-AI-Lab/icms-3d-body-metrabs
 
 #### Version
 
@@ -105,16 +96,13 @@ Main features:
 * Driver Behavior
 
 #### Repository
-
-##### 2D Body Keypoint
-
-* https://github.com/DeltaX-AI-Lab/mobis-oms-pose-estimation-yolox
+https://github.com/DeltaX-AI-Lab/mobis-oms-pose-estimation-yolox
 
 #### Version
 
 | Version | Date | Name                  | Dataset | Train By | Note      | Path                                                           |
 | ------- | ---- | --------------------- | ------- | -------- | --------- | -------------------------------------------------------------- |
-| v1.0.0  |      | 3d-body-keypoint_v1.0 |         | binh     | PHA Final | body_kpts/body_kpts_20260227_v2/model/body_keypoints_0303.onnx |
+| v1.0.0  |      | 3d-body-keypoint_v1.0 |    /hdd/binh/body_keypoints/finetune_dataset_0119     | binh     | PHA Final | EmbeddedAI/artifacts/AM67A/1100/16bit/body_kpts/body_kpts_20260225_v1 |
 
 ---
 
@@ -133,14 +121,13 @@ Main features:
 * Other
 
 #### Repository
-
-* https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
+https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
 
 #### Version
 
 | Version | Date | Name          | Dataset | Train By | Note                             | Path                                                                                      |
 | ------- | ---- | ------------- | ------- | -------- | -------------------------------- | ----------------------------------------------------------------------------------------- |
-| v1.0.0  |      | behavior_v1.0 |    -    | binh     | accuracy improved + size reduced | driver_behaviour_20260518_v2/model/PHA_Driver_Behavior_dev_mobilenet_v2_V6.0_350x350.onnx |
+| v1.0.0  |      | behavior_v1.0 |    /hdd/kwanjueun/project_repo/icms-integration-behavior/data_splits/dataset_V10   | binh     | accuracy improved + size reduced | EmbeddedAI/artifacts/AM67A/1100/16bit/driver_behaviour/driver_behaviour_20260518_v2 |
 
 ---
 
@@ -155,8 +142,7 @@ Main features:
 * Driver Distraction Detection
 
 #### Repository
-
-* https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
+https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
 #### Version
 
@@ -177,8 +163,7 @@ Main features:
 * Driver Distraction Detection
 
 #### Repository
-
-* https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
+https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
 ---
 
@@ -189,5 +174,4 @@ Main features:
 Automatically adjust the Region of Interest (ROI) according to camera position or vehicle model, minimizing manual calibration.
 
 #### Repository
-
-* https://github.com/DeltaX-AI-Lab/icms-dynamicROI
+https://github.com/DeltaX-AI-Lab/icms-dynamicROI
