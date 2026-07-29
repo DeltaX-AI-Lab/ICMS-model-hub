@@ -38,7 +38,7 @@ https://github.com/DeltaX-AI-Lab/icms-yolox
 
 ---
 
-### 2. 2D Facial Landmark
+### 2. Facial Landmark
 
 #### Purpose
 
@@ -58,7 +58,7 @@ https://github.com/DeltaX-AI-Lab/icms-face-landmark
 
 | Version | Date       | Name                | Dataset | Train By | Note                | Path                                   |
 | ------- | ---------- | ------------------- | ------- | -------- | ------------------- | -------------------------------------- |
-| v1.0.0  | 2026.04.14 | face_detection_v1.0.0 |    /hdd/binh/facial_landmark/data_binh/train_1120_crop_256_v2.txt    | binh     | Train with new data | facial_20260227_v2/model/20251120.onnx |
+| v1.0.0  | 2026.04.14 | facial_landmark_v1.0.0 |    /hdd/binh/facial_landmark/data_binh/train_1120_crop_256_v2.txt    | binh     | Train with new data | facial_20260227_v2/model/20251120.onnx |
 
 ---
 
@@ -106,7 +106,7 @@ https://github.com/DeltaX-AI-Lab/mobis-oms-pose-estimation-yolox
 
 ---
 
-### 5. Driver Behavior Classification
+### 5. Behavior
 
 #### Purpose
 
@@ -131,7 +131,7 @@ https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
 
 ---
 
-### 6. Gaze Estimation
+### 6. Gaze
 
 #### Purpose
 
@@ -152,7 +152,7 @@ https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
 ---
 
-### 7. Head Pose Estimation
+### 7. Head Pose
 
 #### Purpose
 
