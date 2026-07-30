@@ -304,7 +304,10 @@ Main features:
 * Driver Hand Gesture
 
 #### Repository
-https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
+https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
+
+
+(same model as the behavior model)
 
 #### Version
 
