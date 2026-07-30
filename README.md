@@ -169,7 +169,7 @@ Main features:
 #### Repository
 https://github.com/DeltaX-AI-Lab/icms-yolox
 
-#### Version
+#### Object Detection (OMS) Model
 
 | Version | Date       | Name                  | Dataset | Owner | Note            |
 | ------- | ---------- | --------------------- | ------- | -------- | --------------- |
@@ -293,8 +293,28 @@ https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 | v1.0.0  | 2026-05-14 | gaze_v1.0.0  |   /hdd/GT_LAB/Gaze-Pipelines/datasets/DeltaX/main/normalized/backup/2026-03-24_192x192      | maksym   | (origin : gaze_20260514_v4_qat_v1) accuracy improved + input size changed |
 
 ---
+### 7. Hand Gesture
 
-### 7. Head Pose
+#### Purpose
+
+Estimate the driver's hand gesture.
+
+Main features:
+
+* Driver Hand Gesture
+
+#### Repository
+https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
+
+#### Version
+
+| Version | Date       | Name      | Dataset | Train By | Note                                   |
+| ------- | ---------- | --------- | ------- | -------- | -------------------------------------- | 
+| v1.0.0  | - | hand_gesture_v1.0.0  |   /aiteam5/ICMS/datasets/HandGesture/PHA_hand/data_split (NAS)      | hoa   | (origin : hand_gesture_20260225_v1) |
+
+---
+
+### 8. Head Pose
 
 #### Purpose
 
@@ -309,7 +329,7 @@ https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
 ---
 
-### 8. Dynamic ROI (Auto Calibration)
+### 9. Dynamic ROI (Auto Calibration)
 
 #### Purpose
 
