@@ -176,6 +176,10 @@ https://github.com/DeltaX-AI-Lab/icms-yolox
 | v1.0.0  | 2026-04-22 | object_detection_v1.0.0 |    /Hippo/hdd/sami/detection/datasets/icms_datasets/oms_dataset_20260630_v3     | sami | (origin : detection_20260630_v6) add child class |
 
 ---
+### Pet Detection Model
+| Version | Date | Name | Dataset | Owner | Note |
+|---|---|---|---|---|---|
+| v1.0.0 | 2026-06-02 | pet_detection_v1.0.0 | /hdd/sami/detection/datasets/pet_detection/synthetic_generation/synthetic_pets_in_cars-1-2 | sami | synthetic data, only trained with 2 classes |
 
 ### 2. Facial Landmark
 
