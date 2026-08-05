@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository serves as the **central repository** for the **YURA ICMS (In-Cabin Monitoring System)** project.
+This repository serves as the **central repository** for the **ICMS (In-Cabin Monitoring System)** project.
 
 Since the project consists of multiple AI models with independent development cycles, each model is maintained in a separate Git repository.
 
