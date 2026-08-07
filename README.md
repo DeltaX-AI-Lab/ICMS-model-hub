@@ -20,7 +20,7 @@ The following fields are mandatory:
 
 | Field | Description |
 | --- | --- |
-| Version | Model version in `vX.Y.Z` format |
+| Version | Model version in `vX.Y` format |
 | Date | Model registration or release date in `YYYY-MM-DD` format |
 | Name | Official model name following the naming convention |
 | Dataset | Exact dataset path and dataset version used for training |
@@ -57,7 +57,7 @@ Required Weight file name:
 Since `<version>` already includes the `v` prefix, the resulting file name will follow this format:
 
 ```text
-object_detection_v1.0.0.onnx
+object_detection_v1.0.onnx
 ```
 
 ### 3. Versioning Policy
@@ -65,22 +65,21 @@ object_detection_v1.0.0.onnx
 All models must use the following version format:
 
 ```text
-vX.Y.Z
+vX.Y
 ```
 
 This project uses a custom model versioning policy:
 
 ```text
-X = TI Release Version
-Y = Model Revision
-Z = Training Revision
+X = Model Revision
+Y = Training Revision
 ```
 
 This policy does not follow standard Semantic Versioning exactly.
 
-#### 2.1. Training Revision: `Z`
+#### 2.1. Training Revision: `Y`
 
-Increment `Z` when the model architecture and input/output interface remain unchanged, but the model is retrained or slightly updated.
+Increment `Y` when the model architecture and input/output interface remain unchanged, but the model is retrained or slightly updated.
 
 Examples:
 
@@ -95,17 +94,17 @@ Examples:
 Example:
 
 ```text
-v1.0.0 -> v1.0.1
-v1.0.1 -> v1.0.2
+v1.0 -> v1.1
+v1.1 -> v1.2
 ```
 
-When only `Z` is incremented, `X` and `Y` remain unchanged.
+When only `Y` is incremented, `X` remains unchanged.
 
 ---
 
-#### 2.2. Model Revision: `Y`
+#### 2.2. Model Revision: `X`
 
-Increment `Y` when the model structure, model interface, or model behavior changes.
+Increment `X` when the model structure, model interface, or model behavior changes.
 
 Examples:
 
@@ -120,33 +119,15 @@ Examples:
 - Making an incompatible preprocessing change
 - Making an incompatible postprocessing change
 
-When `Y` is incremented, `Z` must be reset to `0`.
+When `X` is incremented, `Y` must be reset to `0`.
 
 Example:
 
 ```text
-v1.0.3 -> v1.1.0
-v1.1.4 -> v1.2.0
+v1.3 -> v2.0
+v2.1 -> v3.0
 ```
 
----
-
-#### 2.3. TI Release Version: `X`
-
-Increment `X` when a validated model has passed the required verification process and its corresponding **TI model artifact** has been officially uploaded or registered.
-
-When `X` is incremented:
-
-- `Y` must be reset to `0`
-- `Z` must be reset to `0`
-- The previous candidate model version should be recorded in the `Note` field
-
-Example:
-
-```text
-v1.2.3 -> v2.0.0
-v2.1.4 -> v3.0.0
-```
 
 ---
 ## Model List
