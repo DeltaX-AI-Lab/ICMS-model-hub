@@ -154,13 +154,13 @@ https://github.com/DeltaX-AI-Lab/icms-yolox
 
 | Version | Date       | Name                  | Dataset | Owner | Note            |
 | ------- | ---------- | --------------------- | ------- | -------- | --------------- |
-| v1.0.0  | 2026-06-30 | object_detection_v1.0.0 |    /Hippo/hdd/sami/detection/datasets/icms_datasets/oms_dataset_20260630_v3     | sami | (origin : detection_20260630_v6) add child class |
+| v1.0  | 2026-06-30 | object_detection_v1.0 |    /Hippo/hdd/sami/detection/datasets/icms_datasets/oms_dataset_20260630_v3     | sami | (origin : detection_20260630_v6) add child class |
 
 ---
 ### Pet Detection Model
 | Version | Date | Name | Dataset | Owner | Note |
 |---|---|---|---|---|---|
-| v1.0.0 | 2026-06-02 | pet_detection_v1.0.0 | /hdd/sami/detection/datasets/pet_detection/synthetic_generation/synthetic_pets_in_cars-1-2 | sami | synthetic data, only trained with 2 classes |
+| v1.0 | 2026-06-02 | pet_detection_v1.0 | /hdd/sami/detection/datasets/pet_detection/synthetic_generation/synthetic_pets_in_cars-1-2 | sami | synthetic data, only trained with 2 classes |
 
 ### 2. Facial Landmark
 
@@ -181,7 +181,7 @@ https://github.com/DeltaX-AI-Lab/icms-face-landmark
 #### Version
 | Version | Date       | Name                  | Dataset | Owner | Note            |
 | ------- | ---------- | ------------------- | ------- | -------- | ------------------- | 
-| v1.0.0  | 2026-04-14 | facial_landmark_v1.0.0 |    /hdd/binh/facial_landmark/data_binh/train_1120_crop_256_v2.txt    | binh     | (origin : facial_20260227_v2) Train with new data | 
+| v1.0  | 2026-04-14 | facial_landmark_v1.0 |    /hdd/binh/facial_landmark/data_binh/train_1120_crop_256_v2.txt    | binh     | (origin : facial_20260227_v2) Train with new data | 
 
 ---
 
@@ -203,7 +203,7 @@ https://github.com/DeltaX-AI-Lab/icms-3d-body-metrabs
 
 | Version | Date       | Name                  | Dataset | Owner | Note                 | 
 | ------- | ---------- | --------------------- | ------- | -------- | -------------------- |
-| v1.0.0  | 2026-03-19 | 3d_body_keypoint_v1.0.0  |         | yunho    | (origin : body_3d_20260318_v2) merge driver & front |
+| v1.0  | 2026-03-19 | 3d_body_keypoint_v1.0  |         | yunho    | (origin : body_3d_20260318_v2) merge driver & front |
 
 ---
 
@@ -225,7 +225,7 @@ https://github.com/DeltaX-AI-Lab/mobis-oms-pose-estimation-yolox
 
 | Version | Date | Name                  | Dataset | Owner | Note      | 
 | ------- | ---- | --------------------- | ------- | -------- | --------- | 
-| v1.0.0  |      | 2d_body_keypoint_v1.0.0  |    /hdd/binh/body_keypoints/finetune_dataset_0119     | binh     | (origin : body_kpts_20260225_v1) PHA Final |
+| v1.0  |      | 2d_body_keypoint_v1.0  |    /hdd/binh/body_keypoints/finetune_dataset_0119     | binh     | (origin : body_kpts_20260225_v1) PHA Final |
 
 ---
 
@@ -250,7 +250,7 @@ https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
 
 | Version | Date | Name          | Dataset | Train By | Note                             | 
 | ------- | ---- | ------------- | ------- | -------- | -------------------------------- |
-| v1.0.0  |      | behavior_v1.0.0  |    /hdd/kwanjueun/project_repo/icms-integration-behavior/data_splits/dataset_V10   | binh     | (origin : driver_behaviour_20260518_v2) accuracy improved + size reduced |
+| v1.0  |      | behavior_v1.0  |    /hdd/kwanjueun/project_repo/icms-integration-behavior/data_splits/dataset_V10   | binh     | (origin : driver_behaviour_20260518_v2) accuracy improved + size reduced |
 
 ---
 
@@ -271,7 +271,7 @@ https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
 | Version | Date       | Name      | Dataset | Train By | Note                                   |
 | ------- | ---------- | --------- | ------- | -------- | -------------------------------------- | 
-| v1.0.0  | 2026-05-14 | gaze_v1.0.0  |   /hdd/GT_LAB/Gaze-Pipelines/datasets/DeltaX/main/normalized/backup/2026-03-24_192x192      | maksym   | (origin : gaze_20260514_v4_qat_v1) accuracy improved + input size changed |
+| v1.0  | 2026-05-14 | gaze_v1.0  |   /hdd/GT_LAB/Gaze-Pipelines/datasets/DeltaX/main/normalized/backup/2026-03-24_192x192      | maksym   | (origin : gaze_20260514_v4_qat_v1) accuracy improved + input size changed |
 
 ---
 ### 7. Hand Gesture
@@ -294,7 +294,7 @@ https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
 
 | Version | Date       | Name      | Dataset | Train By | Note                                   |
 | ------- | ---------- | --------- | ------- | -------- | -------------------------------------- | 
-| v1.0.0  | - | hand_gesture_v1.0.0  |   /aiteam5/ICMS/datasets/HandGesture/PHA_hand/data_split (NAS)      | hoa   | (origin : hand_gesture_20260225_v1) |
+| v1.0  | - | hand_gesture_v1.0  |   /aiteam5/ICMS/datasets/HandGesture/PHA_hand/data_split (NAS)      | hoa   | (origin : hand_gesture_20260225_v1) |
 
 ---
 
